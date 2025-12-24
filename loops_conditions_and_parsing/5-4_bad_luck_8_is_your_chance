@@ -10,6 +10,8 @@ do
 	elif [ $i -eq 8 ]
 	then
 		echo "good luck"
-   	fi
+	else
+		echo "Best School"
+	fi
 	i=$((i+1))
 done
