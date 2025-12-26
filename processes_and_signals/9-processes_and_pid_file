@@ -6,6 +6,6 @@ trap 'echo "Y U no love me?!"' SIGINT
 trap 'rm -f /var/run/myscript.pid ; exit' EXIT
 trap 'exit' SIGQUIT
 while true
-do 
+do
    echo 'To infinity and beyond'
 done
