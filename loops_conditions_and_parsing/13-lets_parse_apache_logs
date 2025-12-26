@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#13
+if [[ ! -f "apache-access.log" ]]; then
+    echo "Error: apache-access.log not found."
+    exit 1
+fi
+awk '{print $1, $9}' apache-access.log
